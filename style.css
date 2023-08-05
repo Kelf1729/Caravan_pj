@@ -11,7 +11,7 @@
   max-height: 120px;
 }
 .bg-img {
-  background: url(./img/bg-quote.jpg);
+  background: url(../img/bg-quote.jpg);
   background-size: cover;
 }
 /* Ajuste de links */

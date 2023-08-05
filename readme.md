@@ -1,11 +1,11 @@
-# Frontend Mentor - Ping coming soon page solution
+# Caravan Viagens - Projeto para aprendizado de BootStrap
 
-This is a solution to the [Ping coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+A construção do site de viagens com uma página simples foi realizado como treinamento e aprendizado
+na utilização de classes do BootStrap.
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -18,24 +18,13 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 
 ## Overview
 
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Submit their email address using an `input` field
-- Receive an error message when the `form` is submitted if:
-  - The `input` field is empty. The message for this error should say _"Whoops! It looks like you forgot to add your email"_
-  - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say _"Please provide a valid email address"_
-
 ### Screenshot
 
 ![](./design/desktop-design.jpg)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://kelf1729.github.io/Front_Mentor_PingComing/)
+- Live Site URL: [Add live site URL here](https://kelf1729.github.io/Caravan_pj/)
 
 ## My process
 
@@ -68,7 +57,8 @@ Aprendi a utilizar o input de dados em formato de texto e a manipulação e extr
 
 ### Continued development
 
-Falta apenas algumas alterações sobre a cor da borda do input de e-mails e mudança do icone para facebook, twitter e instagram mas são alterações simples de se fazer, nada complicado no final.
+Continuar aprimorando o uso de classes e combinações além de criar outras páginas de interface para o projeto
+Caravan, onde não terá apenas as páginas de home.
 
 ## Author
 
