@@ -1,0 +1,20 @@
+/* Menu nav principal */
+.box-shadow {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+/* Retirada de padding */
+.box {
+  padding: 0px;
+}
+/* Ajuste svg */
+.svg-box {
+  max-height: 120px;
+}
+.bg-img {
+  background: url(/img/bg-quote.jpg);
+  background-size: cover;
+}
+/* Ajuste de links */
+a {
+  text-decoration: none;
+}
