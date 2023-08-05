@@ -40,25 +40,24 @@ na utilização de classes do BootStrap.
 
 ### What I learned
 
-Aprendi a utilizar o input de dados em formato de texto e a manipulação e extração dessas informações fornecidas pelo usuário.
+Aprendi a aplicar diversas classes entre elas:
 
-```html
-<form action="">
-  <input
-    type="text"
-    name="name"
-    placeholder="Your email address... "
-    id="email"
-  />
-  <button>Notify Me</button>
-  <label class="output-email"></label>
-</form>
-```
+- Criação de menu de nagevação
+- Menu dropdown
+- Carousel de Imagens
+- Form de emails
+- Modal com login de página
+- Grid e responsividade de colunas
+- Citações e ajuste de texto
+- Construção do Footer
 
 ### Continued development
 
 Continuar aprimorando o uso de classes e combinações além de criar outras páginas de interface para o projeto
 Caravan, onde não terá apenas as páginas de home.
+
+- Ajustar a lista de perguntas
+- Corrigir a falha no carregamento da imagem de background da citação
 
 ## Author
 
