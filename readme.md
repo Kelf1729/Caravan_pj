@@ -20,7 +20,7 @@ na utilização de classes do BootStrap. O arquivo CSS e JS foram retirados do l
 
 ### Screenshot
 
-![](./design/desktop-design.jpg)
+![](./img/caravan-home-mobile.PNG)
 
 ### Links
 
@@ -55,8 +55,6 @@ Aprendi a aplicar diversas classes entre elas:
 
 Continuar aprimorando o uso de classes e combinações além de criar outras páginas de interface para o projeto
 Caravan, onde não terá apenas as páginas de home.
-
-- Ajustar a lista de perguntas
 
 ## Author
 

@@ -184,61 +184,46 @@
       </figcaption>
     </figure>
   </div>
-  <!-- Ajustar esse trecho depois, o JS não funciona -->
-  <!-- Accordion list questions -->
-  <!-- <section class="container d-flex flex-column align-items-center">
-    <p class="fw-semibold fs-5 text-uppercase">Ainda está com dúvidas?</p>
-    <h1 class="text-uppercase text-primary text-capitalize display-1">Perguntas Frequentes</h1>
-    From other archive -->
-  <!-- extra up  -->
-  <!-- </section> -->
-  <section class="container">
-    <div class="my-5 text-center">
-      <span class="h6 d-block">AINDA ESTÁ COM DÚVIDAS?</span>
-      <h2 class="display-4 text-primary">Perguntas Frequentes</h2>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-md-6" id="perguntasFrequentes">
-        <div class="pergunta py-2">
-          <a class="lead" data-toggle="collapse" href="#pergunta1" aria-expanded="true" aria-controls="pergunta1">→ É possível cancelar a viagem?</a>
-          <div id="pergunta1" class="collapse show" data-parent="#perguntasFrequentes" role="tabpanel">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum scelerisque. Proin a vestibulum sem, eget tristique massa. Aliquam lacinia rhoncus nibh quis ornare.</p>
+  <!-- Questions -->
+  <!-- Accordion list -->
+  <section class="container py-5">
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            É possível cancelar a viagem?
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            <strong>sim é possível cancelar a viagem.</strong> Nossa companhia sabe que existe imprevisto que podem ocasionar no cancelamento da viagem, portanto nossa equipe é preparada para lidar com cancelamento de viagens assim como nosso sistema de pagamento é personalizado para permitir cancelamentos sem qualquer problema adicional.
           </div>
         </div>
-        <div class="dropdown-divider"></div>
-        <div class="pergunta py-2">
-          <a class="lead" data-toggle="collapse" href="#pergunta2" aria-expanded="true" aria-controls="pergunta2">→ Qual a garantia que tenho se perder o voo?</a>
-          <div id="pergunta2" class="collapse" data-parent="#perguntasFrequentes" role="tabpanel">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum scelerisque. Proin a vestibulum sem, eget tristique massa. Aliquam lacinia rhoncus nibh quis ornare.</p>
-          </div>
-        </div>
-        <div class="dropdown-divider"></div>
-        <div class="pergunta py-2">
-          <a class="lead" data-toggle="collapse" href="#pergunta3" aria-expanded="true" aria-controls="pergunta3">→ Qual a principal forma de viagem?</a>
-          <div id="pergunta3" class="collapse" data-parent="#perguntasFrequentes" role="tabpanel">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum scelerisque. Proin a vestibulum sem, eget tristique massa. Aliquam lacinia rhoncus nibh quis ornare.</p>
-          </div>
-        </div>
-        <div class="dropdown-divider"></div>
-        <div class="pergunta py-2">
-          <a class="lead" data-toggle="collapse" href="#pergunta4" aria-expanded="true" aria-controls="pergunta4">→ Qual o melhor destino de viagem?</a>
-          <div id="pergunta4" class="collapse" data-parent="#perguntasFrequentes" role="tabpanel">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum scelerisque. Proin a vestibulum sem, eget tristique massa. Aliquam lacinia rhoncus nibh quis ornare.</p>
-          </div>
-        </div>
-        <div class="dropdown-divider"></div>
-        <div class="pergunta py-2">
-          <a class="lead" data-toggle="collapse" href="#pergunta5" aria-expanded="true" aria-controls="pergunta5">→ Vocês dão descontos para grupos grandes?</a>
-          <div id="pergunta5" class="collapse" data-parent="#perguntasFrequentes" role="tabpanel">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum scelerisque. Proin a vestibulum sem, eget tristique massa. Aliquam lacinia rhoncus nibh quis ornare.</p>
-          </div>
-        </div>
-        <div class="dropdown-divider"></div>
       </div>
-    </div>
-    <div class="text-center my-4">
-      <p class="small m-1">FALE CONOSCO PARA MAIS DÚVIDAS</p>
-      <a class="btn btn-primary btn-lg" href="contato.html">Entre em Contato</a>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+            Qual a garantia que tenho se perder o voo?
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <strong>Nosso sistema de agendamento de viagens tem seguro contra perca de voo.</strong> Nosso sistema conta com um extenso banco de dados permitindo manipulação e alteração em voo de tala forma que é possível alterar um voo ou prevenir a perca de um voo por motivos de atraso ou clima, de acordo com o nosso contrato de viagem.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+            Qual a principal forma de viagem?
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <strong>Nossa principal forma de viagem e avião e cruzeiro.</strong> Temos uma grande parceria com companhias áreas e sistema de cruzeiro permitindo um maior contato na solução de problemas ao invés de tratar com terceiros, no sistema de voo ou cruzeiro a solução sempre será diretamente realizada com a companhia principal.
+          </div>
+        </div>
+      </div>
     </div>
   </section>
   <!-- Footer -->
